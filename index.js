@@ -32,7 +32,7 @@ function generatePassword() {
 
   setTimeout(() => {
     generateButton.textContent = "Générer mot de passe";
-  }, 2000);
+  }, 3000);
 }
 
 generateButton.addEventListener("click", generatePassword);
